@@ -1,15 +1,2 @@
 skip_files:
-- path: README.md
-- path: .git/
-- path: ".git/**/*"
-- path: .prettierignore
-- path: .prettierrc.json
-- path: .python-version
-- path: .renovaterc.json
-- path: justfile
-- path: pyproject.toml
-- path: src/
-- path: src/**/*
-- path: tests/
-- path: tests/**/*
-- path: uv.lock
+  - not_path: .github/**/*
