@@ -9,7 +9,9 @@ Python CI Workflow with UV Package Manager
 
 ```bash
 boilerplate --output-folder=. --template-url=github.com/gkwa/herzeus/thisoctober 
+```
 
+```bash
 # Alternative: clone and use locally
 git clone --depth 1 https://github.com/gkwa/herzeus
 boilerplate --output-folder=. --template-url=herzeus/thisoctober
