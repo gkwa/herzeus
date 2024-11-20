@@ -11,7 +11,7 @@ name: Build & Test
 jobs:
   test:
     name: Build & Test
-    runs-on: {{ "{{" }} matrix.os {{ "}}" }}
+    runs-on: ${{ "{{" }} matrix.os {{ "}}" }}
     strategy:
       fail-fast: false
       matrix:
@@ -30,10 +30,10 @@ jobs:
         id: setup-uv
         with:
           enable-cache: true
-      - run: echo "Installed uv version is {{ "{{" }} steps.setup-uv.outputs.uv-version {{ "}}" }}"
+      - run: echo "Installed uv version is ${{ "{{" }} steps.setup-uv.outputs.uv-version {{ "}}" }}"
       - name: Create venv and sync deps
         run: |
-          uv venv --python {{ "{{" }} matrix.python-version {{ "}}" }}
+          uv venv --python ${{ "{{" }} matrix.python-version {{ "}}" }}
           uv sync
       - name: Run tests (Windows)
         if: runner.os == 'Windows'
