@@ -23,5 +23,4 @@ Creates:
 ├── .github
 │   └── workflows
 │       └── ci.yml
-└── your_project_files
 ```
