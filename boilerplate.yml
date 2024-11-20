@@ -2,7 +2,6 @@ skip_files:
 - path: README.md
 - path: .git/
 - path: ".git/**/*"
-- path: .github/workflows/ci.yml
 - path: .prettierignore
 - path: .prettierrc.json
 - path: .python-version
