@@ -7,12 +7,14 @@ Python CI Workflow with UV Package Manager
 
 [View source files](https://github.com/gkwa/herzeus/tree/master/thisoctober)
 
+
+
 ```bash
-boilerplate --template-url=https://github.com/gkwa/herzeus/thisoctober --output-folder=.
+boilerplate --output-folder=. --template-url=--template-url=github.com/gkwa/herzeus/thisoctober 
 
 # Alternative: clone and use locally
 git clone --depth 1 https://github.com/gkwa/herzeus
-boilerplate --template-url=herzeus/thisoctober --output-folder=.
+boilerplate --output-folder=. --template-url=herzeus/thisoctober
 ```
 
 Creates:
