@@ -6,7 +6,7 @@ Scaffold GitHub Actions workflows using boilerplate templates.
 
 Python CI Workflow with UV Package Manager
 
-[View source files](https://github.com/gkwa/herzeus/tree/master/thisoctober)
+[View source files](/thisoctober)
 
 ```bash
 boilerplate --output-folder=. --template-url=github.com/gkwa/herzeus/thisoctober
