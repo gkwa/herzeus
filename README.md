@@ -2,7 +2,7 @@
 
 Scaffold GitHub Actions workflows using boilerplate templates.
 
-## herzeus/thisoctober
+## template herzeus/thisoctober
 
 Python CI Workflow with UV Package Manager
 
